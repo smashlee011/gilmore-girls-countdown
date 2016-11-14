@@ -129,6 +129,26 @@ small {
 	color: #A0A0A0;
 }
 
+.follow-me {
+	text-align: center;
+}
+
+.follow-me a {
+	padding: 8px 25px;
+	color: white;
+	text-decoration: none;
+	background: #4EC0BC;
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	transition: background 200ms ease;
+}
+
+.follow-me a:hover {
+	background: #3da9a5;
+}
+
 @media only screen and (max-width: 820px) {
 	.gg-image, .gg-information {
 		float: none;
