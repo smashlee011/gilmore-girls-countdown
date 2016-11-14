@@ -2,18 +2,21 @@
   box-sizing: border-box;
 }
 
+html {
+	background: url("../img/background.jpg") no-repeat center center;  
+	background-size: cover;
+}
+
+html, body {
+	height: 100%;
+}
+
 body {
-  height: 100vh;
-    background: #b9ddeb; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, #b9ddeb, #007d9a); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #b9ddeb, #007d9a); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #b9ddeb, #007d9a); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #b9ddeb, #007d9a); /* Standard syntax (must be last) */
+	color: #FFF;
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 .header {
-	color: #FFF;
-	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
 }
 
