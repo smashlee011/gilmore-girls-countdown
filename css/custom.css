@@ -12,39 +12,116 @@ html, body {
 }
 
 body {
-	color: #FFF;
+	color: #515151;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
-.header {
+h1 {
+	text-transform: uppercase;
 	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	margin-bottom: 6px;
+	font-weight: 900;
 }
 
-#clockdiv{
-	font-family: sans-serif;
-	color: #fff;
-	display: block;
-	font-weight: 100;
+h2 {
 	text-align: center;
-	font-size: 30px;
+	color: #4EC0BC;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 900;
+}
+
+.premier-date {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.gg-card {
+	width: 780px;
+	border-radius: 8px;
+	overflow: hidden;
+	margin: 100px auto;
+	background: white;
+	box-shadow: 0 2px 10px -3px #333;
+}
+
+.gg-image, .gg-information {
+	float: left;
+	width: 50%;
+}
+
+.gg-image img {
+	max-width: 100%;
+}
+
+.gg-meta {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.social-icons {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.social-icons a {
+	font-size: 20px;
+	margin: 0 8px;
+	color: #515151;
+	transition: color 200ms ease;
+}
+
+.twitter:hover {
+	color: #1da1f2;
+}
+
+.facebook:hover {
+	color: #3b5998;
+}
+
+.social {
+	color: #A0A0A0;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.gg-information-wrapper {
+	padding: 40px;
+}
+
+.clock-remains {
+	color: #A0A0A0;
+	text-align: center;
+	font-weight: 900;
+	margin-top: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+
+#clockdiv{
+	display: block;
+	text-align: center;
 	margin: 0 auto;
 }
 
 #clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	background: #00BF96;
+	padding: 5px;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
-	border-radius: 3px;
-	background: #00816A;
 	display: inline-block;
+	border: 1px solid  #E6E6E6;
+	font-weight: 900;
 }
 
 .smalltext{
 	padding-top: 5px;
-	font-size: 16px;
 }
